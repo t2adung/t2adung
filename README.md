@@ -1,158 +1,136 @@
-# AI-Powered SaaS
+# Hi, I'm Joy Tran 👋
 
-> A production-style SaaS application combining subscription billing, multi-tenancy and AI capabilities.
+### Full-stack SaaS Developer | AI Integration & Automation | Data & BI
 
-[![Status](https://img.shields.io/badge/status-portfolio%20project-informational)](#)
-[![Documentation](https://img.shields.io/badge/docs-README-blue)](#)
+I build **production-ready SaaS applications, AI-powered features, business automations, and data solutions** for startups and businesses.
 
-## Overview
+My focus is on turning business requirements into practical, maintainable software.
 
-A modular SaaS architecture separates core business logic from AI services. Users can subscribe to plans, use AI features within configurable limits, and administrators can monitor usage.
+---
 
-## Problem
+## What I Do
 
-Many SaaS products need the same foundation: authentication, organizations, billing, usage limits, background jobs and integrations. The challenge is adding AI without creating an unmaintainable system.
+| Area | Capabilities |
+|---|---|
+| **SaaS / Full-stack** | Laravel, PHP, TypeScript, React/Vue, REST APIs, PostgreSQL, Redis |
+| **AI Integration** | LLM APIs, RAG, embeddings, vector search, tool calling, AI agents |
+| **Automation** | n8n, webhooks, API integrations, scheduled workflows, business automation |
+| **Data / BI** | SQL, Power BI, Power Query, DAX, ETL, data modeling |
+| **Cloud / DevOps** | AWS, Docker, CI/CD, GitHub Actions, Linux |
 
-## Solution
+---
 
-A modular SaaS architecture separates core business logic from AI services. Users can subscribe to plans, use AI features within configurable limits, and administrators can monitor usage.
+## Featured Projects
 
-## Architecture
+### 1. AI-Powered SaaS
+**Full-stack SaaS + AI + cloud**
 
-```text
-Frontend
-   |
-   v
-API / Web Application
-   |
-   +---- PostgreSQL
-   +---- Redis / Queue
-   +---- Object Storage
-   +---- Payment Provider
-   +---- AI Provider
-   |
-   +---- Monitoring / Logs
+Subscription-based SaaS application with authentication, multi-tenancy, billing, AI features, background jobs and cloud deployment.
 
-```
+→ [View project](../ai-powered-saas)
 
-## Key Features
+### 2. AI Business Automation
+**AI + APIs + workflow automation**
 
-- Authentication and authorization
-- Multi-tenancy
-- Subscription plans and usage limits
-- AI-powered feature
-- Background jobs
-- REST API
-- Admin dashboard
-- Cloud deployment
+Automates repetitive business processes using LLMs, APIs, webhooks and workflow orchestration.
+
+→ [View project](../ai-business-automation)
+
+### 3. AI Knowledge Assistant
+**RAG + document intelligence**
+
+Allows users to query internal documents using retrieval-augmented generation and source-aware responses.
+
+→ [View project](../ai-knowledge-assistant)
+
+### 4. Business Intelligence Dashboard
+**SQL + Power BI + business analytics**
+
+Transforms operational data into KPI dashboards and actionable business insights.
+
+→ [View project](../business-intelligence-dashboard)
+
+### 5. Data Automation Pipeline
+**Python + ETL + PostgreSQL + BI**
+
+Extracts, validates, transforms and stores data from external APIs for reporting and analytics.
+
+→ [View project](../data-automation-pipeline)
+
+---
+
+## Certifications
+
+- **AWS Certified Developer – Associate**
+- **AWS Certified AI Practitioner**
+- **Microsoft Certified: Power BI Data Analyst Associate**
+
+> Certification details and verification links are included in the relevant project/profile documentation.
+
+---
+
+## Engineering Principles
+
+- Business-first development
+- Clean and maintainable code
+- API-first architecture
+- Secure-by-default design
+- Automated testing
+- CI/CD
+- Observability and logging
+- Practical AI integration
+- Automation of repetitive work
+- Documentation that helps users and developers
+
+---
+
+## Freelance Services
+
+### Build
+Build SaaS, internal tools, dashboards and AI-powered applications.
+
+### Integrate
+Add AI capabilities, third-party APIs, payments, authentication and business integrations to existing systems.
+
+### Automate
+Replace repetitive manual workflows with APIs, AI and workflow automation.
+
+### Modernize
+Upgrade legacy applications, improve architecture, performance, security and deployment.
+
+---
 
 ## Tech Stack
 
-- **Backend:** Laravel / PHP
-- **Frontend:** Vue or React / TypeScript
-- **Database:** PostgreSQL
-- **Cache:** Redis
-- **AI:** LLM API
-- **Cloud:** AWS
-- **DevOps:** Docker + GitHub Actions
+**Backend:** PHP · Laravel · Python · REST APIs
 
-## Screenshots / Demo
+**Frontend:** TypeScript · React · Vue · HTML · CSS
 
-**Live demo:** Add demo URL
+**AI:** LLM APIs · RAG · Embeddings · Vector Search · AI Agents
 
-Add 2–4 screenshots here showing the most important user flows.
+**Automation:** n8n · Webhooks · OAuth · API Integrations
 
-Recommended screenshots:
+**Data:** PostgreSQL · SQL · Power BI · Power Query · DAX · ETL
 
-1. Main user workflow
-2. Important dashboard / result
-3. Admin or configuration screen
-4. Mobile/responsive view if relevant
+**Cloud:** AWS · Docker · GitHub Actions · Linux
 
-## Engineering Highlights
+---
 
-Document the decisions that demonstrate senior-level engineering:
+## Contact
 
-- Why this architecture was selected
-- Important trade-offs
-- Security considerations
-- Error handling and retry strategy
-- Performance considerations
-- Testing strategy
-- Deployment approach
-- Monitoring / logging approach
+- **Email:** t2adung@gmail.com
+- **LinkedIn:** [https://www.linkedin.com/in/t2adung](https://www.linkedin.com/in/t2adung)
+- **Portfolio:** [https://t2adung.github.io](https://t2adung.github.io/)
+- **Upwork:** [https://www.upwork.com/freelancers/~01864e5cfb730b1803](https://www.upwork.com/freelancers/~01864e5cfb730b1803)
 
-## Results / Outcomes
+---
 
-- Demonstrates end-to-end SaaS development
-- Demonstrates AI integration without coupling the whole application to one provider
-- Designed to be extended with additional AI providers and business integrations
+## About This GitHub
 
-> Replace these bullets with real measurable results when available. Do not invent metrics.
+The repositories in this profile are structured as **case studies**, not just code samples.
 
-## Local Development
+Each project documents:
 
-### Requirements
+**Problem → Solution → Architecture → Implementation → Testing → Deployment → Results**
 
-- Git
-- Docker / Docker Compose
-- Required runtime versions listed below
-
-### Setup
-
-```bash
-git clone <repository-url>
-cd <repository-directory>
-
-cp .env.example .env
-
-# Install dependencies
-# Run migrations / seed data
-# Start the application
-```
-
-Keep environment variables in `.env.example`. Never commit credentials, API keys or production secrets.
-
-## Testing
-
-Document how to run the test suite:
-
-```bash
-# Example
-<test-command>
-```
-
-Include:
-
-- Unit tests
-- Integration tests
-- API tests
-- Important edge cases
-
-## API / Data Documentation
-
-Link to API documentation, schema diagrams or sample requests when applicable.
-
-## Security
-
-- Secrets are managed through environment variables
-- Authentication and authorization are enforced
-- Input validation is applied
-- External API failures are handled safely
-- Sensitive data is not logged
-- Dependencies are kept up to date
-
-## Project Status
-
-**Status:** Portfolio / Demonstration Project
-
-## Roadmap
-
-- [ ] Add production monitoring
-- [ ] Improve automated test coverage
-- [ ] Add additional integrations
-- [ ] Improve documentation
-
-## License
-
-MIT
+This is intended to make the technical work understandable to both **technical teams and business clients**.
