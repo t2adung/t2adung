@@ -27,35 +27,35 @@ My focus is on turning business requirements into practical, maintainable softwa
 
 Subscription-based SaaS application with authentication, multi-tenancy, billing, AI features, background jobs and cloud deployment.
 
-→ [View project](../ai-powered-saas)
+→ [View project](https://bibeli.net)
 
 ### 2. AI Business Automation
 **AI + APIs + workflow automation**
 
 Automates repetitive business processes using LLMs, APIs, webhooks and workflow orchestration.
 
-→ [View project](../ai-business-automation)
+→ [View project]
 
 ### 3. AI Knowledge Assistant
 **RAG + document intelligence**
 
 Allows users to query internal documents using retrieval-augmented generation and source-aware responses.
 
-→ [View project](../ai-knowledge-assistant)
+→ [View project]
 
 ### 4. Business Intelligence Dashboard
 **SQL + Power BI + business analytics**
 
 Transforms operational data into KPI dashboards and actionable business insights.
 
-→ [View project](../business-intelligence-dashboard)
+→ [View project]
 
 ### 5. Data Automation Pipeline
 **Python + ETL + PostgreSQL + BI**
 
 Extracts, validates, transforms and stores data from external APIs for reporting and analytics.
 
-→ [View project](../data-automation-pipeline)
+→ [View project]
 
 ---
 
